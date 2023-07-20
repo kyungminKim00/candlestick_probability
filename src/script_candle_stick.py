@@ -7,7 +7,7 @@ import ray
 import yfinance as yf
 from plotly.subplots import make_subplots
 
-from candle_stick import CandleStick
+from lib.candle_stick import CandleStick
 
 print("Ray initialized already" if ray.is_initialized() else ray.init())
 
