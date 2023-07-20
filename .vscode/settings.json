@@ -1,6 +1,5 @@
 {
-    "python.formatting.provider": "none",
-    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.formatting.blackPath": "/usr/local/bin/black",
