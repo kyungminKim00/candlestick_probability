@@ -9,8 +9,6 @@
 	// Enable gpu
 	// i.e. wsl -> c:\Ubuntu_share\dataset ubuntu-> /home/kmkim/dataset
 	"runArgs": [
-		"--gpus",
-		"all",
 		"-v",
 		"${localEnv:DATAHOME}/candle_probability:/workspaces/candle_probability/local_data",
 		"--shm-size",
