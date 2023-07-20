@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.0/containers/docker-existing-dockerfile
 {
-	"name": "candle_probability",
+	"name": "candlestick_probability",
 	// Sets the run context to one level up instead of the .devcontainer folder.
 	"context": "..",
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
@@ -10,7 +10,7 @@
 	// i.e. wsl -> c:\Ubuntu_share\dataset ubuntu-> /home/kmkim/dataset
 	"runArgs": [
 		"-v",
-		"${localEnv:DATAHOME}/candle_probability:/workspaces/candle_probability/local_data",
+		"${localEnv:DATAHOME}/candlestick_probability:/workspaces/candlestick_probability/local_data",
 		"--shm-size",
 		"10.24g"
 	],
@@ -27,7 +27,7 @@
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
 	"remoteEnv": {
-		"PYTHONPATH": "${containerEnv:PATH}:/workspaces/candle_probability/src",
+		"PYTHONPATH": "${containerEnv:PATH}:/workspaces/candlestick_probability/src",
 		"DATAHOME": "${localEnv:DATAHOME}"
 	},
 	"settings": {
