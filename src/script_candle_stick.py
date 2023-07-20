@@ -157,7 +157,7 @@ if __name__ == "__main__":
     raw = raw_date(
         fn=env_dict["raw_file_csv"],
         interval=env_dict["interval"],
-        download=False,
+        download=True,
         ticker=env_dict["ticker"],
     )
 
